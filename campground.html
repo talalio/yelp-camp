@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campground</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="p-5 flex flex-row gap-5 justify-between">
+      <img src="./assets/Logo.svg" alt="" />
+      <div class="md:w-full flex flex-row justify-between">
+        <img
+          class="md:hidden bg-[#f7f7f7]"
+          src="./assets/Hamburger Menu.svg"
+          alt=""
+        />
+        <a
+          class="p-2 hidden md:inline-block text-gray-600 md:self-start"
+          href="/index.html"
+        >
+          Home
+        </a>
+        <div class="hidden md:block flex space-x-2">
+          <a
+            class="p-2 inline-block text-gray-600"
+            href="/signin.html"
+            >Login</a
+          >
+          <a
+            class="p-2 inline-block text-gray-600 border border-black rounded-md text-white bg-black"
+            href="/signup.html"
+            >Create an account</a
+          >
+        </div>
+      </div>
+    </nav>
+    <main
+      class="p-5 flex flex-col md:flex-row-reverse gap-5 md:items-center md:justify-center"
+    >
+      <section
+        id="camp_details"
+        class="md:w-1/2 flex flex-col gap-5 md:items-center md:justify-center"
+      >
+        <section class="p-5 flex flex-col gap-5 border border-gray rounded-md">
+          <img
+            src="./assets/Camp Images/compressed/Mount Ulap.jpg"
+            alt=""
+            class="object-cover rounded-md"
+          />
+          <div class="flex flex-col gap-5">
+            <div class="flex flex-row justify-between">
+              <label class="font-bold text-lg">Mount Ulap</label>
+              <label>$104.99/night</label>
+            </div>
+            <p class="text-gray-600">
+              Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point
+              trail located near Tuba, Benguet, Philippines that offers the
+              chance to see wildfire and is rated as moderate. The trail is
+              primarily used for hiking.
+            </p>
+            <em class="text-gray-600">Submitted by Andrew Mike</em>
+          </div>
+        </section>
+        <section
+          id="comments"
+          class="p-5 flex flex-col justify-between gap-5 border border-gray rounded-md"
+        >
+          <div class="flex flex-col gap-3">
+            <div class="flex flex-row justify-between">
+              <label for="" class="font-bold text-sm">Adam Jones</label>
+              <label for="" class="text-xs text-gray-600">13h ago</label>
+            </div>
+            <p class="text-gray-600">
+              Honestly one of the best experiences ever, took us a white to
+              figure out how to get there but it was amazing!
+            </p>
+          </div>
+          <hr class="text-gray" />
+          <div class="flex flex-col gap-3">
+            <div class="flex flex-row justify-between">
+              <label for="" class="font-bold text-sm">Isaac Dylan</label>
+              <label for="" class="text-xs text-gray-600">1 day ago</label>
+            </div>
+            <p class="text-gray-600">
+              Traveling changes you as a person, you gain more perspective, this
+              is the perfect spot to do that.
+            </p>
+          </div>
+          <hr class="text-gray" />
+          <div class="flex flex-col gap-3">
+            <div class="flex flex-row justify-between">
+              <label for="" class="font-bold text-sm">Hudson Luca</label>
+              <label for="" class="text-xs text-gray-600">3 days ago</label>
+            </div>
+            <p class="text-gray-600">
+              Definitely recommend going there, not too far and not alot of
+              people to ruin the experience.
+            </p>
+          </div>
+          <hr class="text-gray" />
+          <button
+            class="p-2 sm:w-fit sm:self-start md:self-end border border-black rounded-md text-white bg-black"
+          >
+            <img
+              class="mr-2 inline-block"
+              src="./assets/Chat Bubble.svg"
+              alt=""
+            />
+            Leave a Review
+          </button>
+        </section>
+      </section>
+      <section
+        id="map"
+        class="p-5 flex md:self-start justify-center border border-gray rounded-md"
+      >
+        <img class="object-cover" src="./assets/Map.png" alt="" />
+      </section>
+    </main>
+    <footer class="m-5 flex flex-row items-left">
+      <img src="./assets/Logo.svg" alt="" />
+    </footer>
+  </body>
+</html>
