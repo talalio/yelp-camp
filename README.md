@@ -2,4 +2,4 @@
 
 Explore the best camping locations on earth.
 
-Made with HTML5 & TailWindCSS.
+Made with HTML5 & TailwindCSS.
