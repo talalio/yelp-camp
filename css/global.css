@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&display=swap');
+
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Archivo';
+    background-color: #ffffff;
+}
